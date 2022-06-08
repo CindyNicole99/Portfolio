@@ -8,7 +8,7 @@ section {
 }
 
 .navbar {
-    background-color: #E5989B;
+    background-color: #f7cad0;
     height: 100vh;
     color: white;
     font-size: 30px;
@@ -75,4 +75,14 @@ p {
 .button:active {
     background-color: #6D6875;
     color: #FFCDB2;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+    border: solid;
 }
