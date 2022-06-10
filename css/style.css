@@ -55,6 +55,15 @@ p {
     font-weight: 300;
 } 
 
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    font-size: 80px;
+    margin: 35px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
@@ -163,4 +172,27 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30;
+        margin: 20px;
+    }  
+}
+
+.ul {
+    display: none;
 }
