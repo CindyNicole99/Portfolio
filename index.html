@@ -6,37 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8b428a6899.js" crossorigin="anonymous"></script>
     <script defer src="./js/app.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <title>Cindy's Portfolio</title>
+    <link 
+    id="favicon" 
+    rel="icon"
+    href="/assets/ppp-favicon.jpeg"
+    type="image/png" 
+    sizes="32x32"
+>
 </head>
 <body>
    <section class="navbar">
        <nav>
            <div>CS</div>
            <ul>
-               <li>About Me</li>
-               <li>My Projects</li>
-               <li>Contact</li>
+               <li><a href="#projects">My Projects</a></li>
+               <li>Resume</li>
+               <li><a href="#contact-me">Contact</a></li>
            </ul>
        </nav>
        <div class="intro-area">
        <div class="intro-text">
        <h1>Cindy Salcido</h1>
        <p>Software Engineer</p>
-       <div class="button">About Me</div>
+       <div class="button"><a href="#about-me">About Me</a></div>
      </div>
     </section>
+    <section class="info-section" id="about-me">
+        <div class="about-me-info">
+            <h2>About Me</h2> 
+            <p> Hi! My name is Cindy Salcido. I am a Houston, Texas-based aspiring Software Engineer.</p>
+        </div>
+        <div class="profile-pic">
+            <img src="./assets/pp.jpg" height="370px" width="375px" >
+        </div>
+    </section>
+    <section class="info-section-alt" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="ttt-image" src="./assets/TTT.JPEG" alt="Project One"/>
+                <h3>Tic-Tac-Toe</h3>
+                <p class="subtext">A Tic-Tac-Toe browser game built with HTML, CSS & JavaScript.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://tictactoe-cindysalcido.netlify.app/">View here</a></p>
+            </div>
+            <div class="project-card">
+              <img class="project-image" src="" alt="Project One"/>
+              <h3>Project Two</h3>
+              <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <hr/>
+              <p class="subtext"><a class="project-link" href="">View here</a></p>
+            </div>
+            <div class="project-card">
+              <img class="project-image" src="" alt="Project One"/>
+              <h3>Project Three</h3>
+              <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <hr/>
+              <p class="subtext"><a class="project-link" href="">View here</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="resume-section">
 
-    <img src="./assets/profilepic.JPG" height="370px" width="375px" >
+    </section>
+    <footer id="contact-me">
+        <h2>Let's Connect</h2>
+        <div class="icons">
+            <a href="https://github.com/CindyNicole99"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/cindy-salcido-86ab87234/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto: salcidocindy99@yahoo.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>   
+    </footer>
 
-<div class="icons">
-    <a href="https://github.com/CindyNicole99"><i class="fa-brands fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/cindy-salcido-86ab87234/"><i class="fa-brands fa-linkedin"></i></a>
-    <a href="mailto: salcidocindy99@yahoo.com"><i class="fa-solid fa-envelope"></i></a>
-</div>
 
 
 </body>

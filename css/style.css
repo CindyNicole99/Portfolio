@@ -7,11 +7,19 @@ section {
     background-color: white;
 }
 
+
 .navbar {
-    background-color: #f7cad0;
+    background-color: #f1c4c9;
     height: 100vh;
     color: white;
     font-size: 30px;
+}
+
+footer {
+    background-color: #f1c4c9;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -33,21 +41,30 @@ li {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     margin: 0;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
     margin: 0;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 300;
 } 
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
 .intro-area {
     display: flex;
-    flex-direction: column;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -78,11 +95,72 @@ p {
 }
 
 img {
+    width: 370px;
     border-radius: 50%;
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 20px;
-    display: block;
-    border: solid;
+    display: block; */
+    border: solid 2px;
+}
+
+.profile-pic {
+    display: flex;
+    align-items: center;
+
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.info-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.ttt-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
