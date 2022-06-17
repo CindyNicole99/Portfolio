@@ -181,7 +181,11 @@ a{
     color: white;
 }
 
-.hamburger {
+.ul {
+    display: none;
+}
+
+/* .hamburger {
     display: none;
 }
 
@@ -198,8 +202,4 @@ a{
         font-size: 30;
         margin: 20px;
     }  
-}
-
-.ul {
-    display: none;
-}
+} */
