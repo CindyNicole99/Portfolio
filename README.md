@@ -8,7 +8,7 @@ Thank you for visiting my website! Im currently a student at General Assembly, e
 
 Technologies Used: HTML, JavaScript, CSS, Git, Awesome Fonts for icons
 
-Portfolio - https://cns-portfolio.netlify.app
+Portfolio - https://cns-portfolio.netlify.app <br>
 Trello - https://trello.com/b/4KXgds4s/cindy-salcido-portfolio
 
 Sneak Peek:
