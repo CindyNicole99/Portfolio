@@ -1,24 +1,34 @@
 
-// const hamburgerButton = document.getElementById('hamburger')
-// const navList = document.getElementById('nav-list')
-
-// function toggleButton() {
-//     navList.classList.toggle('show')
-// }
-
-// hamburgerButton.addEventListener('click', toggleButton)
-
 //variables
-import { projects } from "./data.js"
+// import { projects } from "./data.js"
 
 //cached elements
+
 const cardContainer = document.getElementById('card-container')
-const githubBtn = document.getElementById('github')
+const githubBtn = document.getElementById('git')
 const linkedinBtn = document.getElementById('linkedin')
-const body = document.querySelector('body')
-const toggleBtn = document.querySelector('toggleBtn')
+const email = document.getElementById('yahoo')
 
 //event listeners
-toggleBtn.addEventListener('click', toggleDark)
 
-//functions
+githubBtn.addEventListener('mouseover', function (e) {
+    e.target.style.filter='invert(50%)'
+})
+githubBtn.addEventListener('mouseout',(e) => {
+    e.target.style.filter='invert(0)'
+})
+  
+linkedinBtn.addEventListener('mouseover', function (e) {
+    e.target.style.filter='invert(50%)'
+})
+linkedinBtn.addEventListener('animationend',(e) => {
+    e.target.style.filter='invert(0)'
+})
+  
+email.addEventListener('mouseover', function (e) {
+    e.target.style.filter='invert(50%)'
+})
+email.addEventListener('animationend',(e) => {
+    e.target.style.filter='invert(0)'
+})
+  
